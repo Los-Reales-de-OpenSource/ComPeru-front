@@ -1,0 +1,22 @@
+<mat-toolbar color="primary"  class="principal-toolbar">
+<!--  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">-->
+<!--    <mat-icon class="title-product">menu</mat-icon>-->
+<!--  </button>-->
+  <span class="title-product">COMPERU</span>
+  <span class="mat-spacer"></span>
+  @for(option of options; track option.title) {
+    <a class="routes-a" mat-button [routerLink]="option.path">
+      <p class="routes-pages">
+        {{ option.title }}
+      </p>
+    </a>
+  }
+</mat-toolbar>
+
+
+<router-outlet/>
+
+<footer style="background-color: #27374D ;opacity: 0.9; color: #fff; text-align: center; padding: 10px;" >
+  <p>Copyright © 2024 Project ComPeru, All rights reserved.</p>
+  <p>Developed by Elverth Vasquez Villalobos and team</p>
+</footer>
