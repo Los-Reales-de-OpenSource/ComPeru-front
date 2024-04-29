@@ -1,0 +1,50 @@
+<form (submit)="onSubmit()" #messageForm='ngForm' class="form-row" style="height: 100%;width: 100%;display: flex;justify-content: center;align-items: center">
+
+  <div class="principal-container" *ngIf="!send; else message_sended">
+
+    <div class="header-form">
+      <mat-form-field appearance="outline" class="form-field_inputs" >
+        <mat-label >Name</mat-label>
+        <input matInput placeholder="Name" name="Name" required [(ngModel)]="message.name" >
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="form-field_inputs">
+        <mat-label >Last Name</mat-label>
+        <input matInput placeholder="Last-Name" name="lastName" required [(ngModel)]="message.lastName" >
+      </mat-form-field>
+
+    </div>
+
+    <div class="center-form">
+      <mat-form-field appearance="outline">
+        <mat-label class="center-form-input">E-mail</mat-label>
+        <input matInput placeholder="E-mail" name="email" required [(ngModel)]="message.email" >
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="message-field" >
+        <mat-label class="center-form-input" >Message</mat-label>
+        <textarea matInput placeholder="Message" name="content" required [(ngModel)]="message.content"></textarea>
+      </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" class="button-send">Send Message </button>
+    <!--    <button mat-flat-button class="button-send">Send Message</button>-->
+
+  </div>
+
+  <ng-template #message_sended>
+    <div class="message_sent-container" [ngClass]="{ 'active': send }">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="task_alt" class="message_sent-icon"></mat-icon>
+      <!-- Mensaje de éxito -->
+      <p class="message-successfully">Message sent successfully!</p>
+      <button mat-flat-button class="message_sent-button" (click)="onClickOk()">Ok</button>
+
+    </div>
+  </ng-template>
+
+
+  </form>
+
+
+
+
+

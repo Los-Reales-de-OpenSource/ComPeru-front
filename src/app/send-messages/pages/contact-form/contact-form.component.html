@@ -1,0 +1,47 @@
+
+<section class="contact-container-title">
+  <p class="container-title_title"> Have Some Question?</p>
+</section>
+
+<section class="contact-container-form">
+  <mat-card class="form-container">
+    <mat-card-content style="height: 100%;width: 100%;" class="form-container-card">
+      <app-create-message style="height: 100%;width: 100%"  (messageAdded) = "onMessageAdded($event)"
+                           [message] = "messageData"
+                           [send]="isMessageSended"
+      />
+    </mat-card-content>
+  </mat-card>
+
+  <div class="image-container">
+    <mat-card class="image-container_card">
+      <mat-card-content class="content-container">
+
+
+        <div class="container-content-text" id="container-title">
+          <p class="container-content-text_tile" id="contact-title">Contact Us</p>
+        </div>
+
+        <div class="container-content-text">
+          <p class="container-content-text_tile text-contact">Email:</p>
+          <p class="container-content-text_content text-contact">innovation&#64;gmail.com</p>
+        </div>
+
+        <div class="container-content-text">
+          <p class="container-content-text_tile text-contact">Phone:</p>
+          <p class="container-content-text_content text-contact"> +51 999 666 999</p>
+        </div>
+
+        <div class="container-content-text">
+          <p class="container-content-text_tile text-contact">Website:</p>
+          <p class="container-content-text_content text-contact">comperu.com</p>
+        </div>
+
+
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+</section>
+
+

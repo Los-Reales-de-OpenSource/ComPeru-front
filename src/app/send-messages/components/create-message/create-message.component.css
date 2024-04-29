@@ -1,0 +1,108 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.principal-container{
+  width: 600px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-send{
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+  color: white;
+  background-color: #003785;
+  font-size: 20px;
+}
+
+.form-field{
+  width: 300px;
+  height: 100px;
+}
+
+.message-field{
+  width: 300px;
+}
+
+.header-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form-field_inputs{
+width: 270px;
+
+}
+
+.center-form{
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-field{
+  width: 100%;
+}
+
+.message_sent-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.message-successfully{
+  font-family: "Montserrat", sans-serif;
+  color: #CACEDE;
+  font-size: 35px;
+  font-weight: 500;
+  text-space: 20px;
+  letter-spacing: 2px;
+
+}
+.message_sent-icon{
+  height: 150px;
+  width: 150px;
+  color: #1B2854;
+  /*color: #003785;*/
+  font-size: 150px;
+  margin-bottom: 40px;
+}
+
+.message_sent-button{
+  height: 60px;
+  width: 150px;
+  background-color: #1B2854;
+  color: white;
+  border-radius: 20px;
+  margin-top: 200px;
+  justify-self: flex-end;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+.message_sent-container {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.message_sent-container.active {
+  opacity: 1;
+  transform: translateY(0);
+}
