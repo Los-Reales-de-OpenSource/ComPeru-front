@@ -1,13 +1,13 @@
 .bicon{
   color: #CACEDE;
-  width: 65px;
-  height: 65px;
+  width: 4.063rem;
+  height: 4.063rem;
   border-radius: 100%;
 }
 
 .tit1{
   font-family: Open Sans;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #003785;
 }
 
@@ -19,6 +19,6 @@ mat-toolbar{
 }
 
 mat-form-field{
-  width: 920px;
-  height: 60px;
+  width: 57.5rem;
+  height: 3.75rem;
 }
