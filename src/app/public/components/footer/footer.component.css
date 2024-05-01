@@ -1,0 +1,21 @@
+.footer_cont{
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  background: #003785;
+  align-items: center;
+}
+.foot-col{
+  width: 23.5%;
+  margin-left: 5%;
+  h3{
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto Light";
+  }
+  h4{
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto Light";
+  }
+}
