@@ -1,6 +1,11 @@
 .sub_toolbar{
+  margin-top: 1.531rem;
   display: flex;
-  gap: 10px;
+  gap: 1.375rem;
+  height: 2.063rem;
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: #003785;
 }
 .banner_zone{
   margin-top: 5.125rem;
