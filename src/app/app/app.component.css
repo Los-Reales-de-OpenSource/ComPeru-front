@@ -1,0 +1,38 @@
+.main {
+  background: linear-gradient(to bottom, #add8e6 0%, #ffffff 100%);
+}
+.section{
+
+}
+.form-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Altura total de la ventana */
+}
+
+.button-register {
+  width: 300px; /* Ancho del botón */
+  padding: 20px; /* Espaciado interior */
+  text-align: center; /* Alineación del texto */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  border-radius: 10px; /* Bordes redondeados */
+
+}
+
+.button-login {
+  width: 300px; /* Ancho del botón */
+  padding: 20px; /* Espaciado interior */
+  text-align: center; /* Alineación del texto */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/*h css*/
+.h2{
+font-size: 1.5rem;
+    line-height: 2rem;
+}
+.section{
+  padding: 4.5rem 0 2rem;
+}

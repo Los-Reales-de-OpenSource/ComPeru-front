@@ -1,0 +1,68 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.login{
+  background-color: #003785;
+  color: white;
+  padding: 10px 25px 10px 20px;
+
+}
+.register{
+  margin-right: 10px;
+  padding: 10px;
+  color: #003785;
+}
+button{
+  margin: auto;
+}
+
+
+.topNavigationItem {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.structurizrBackgroundLight {
+  background: #438DD5;
+  color: #ffffff;
+  margin-right: 10pt;
+  padding-right: 10pt;
+  padding-left: 10pt;
+  padding-top: 1pt;
+  padding-bottom: 1pt;
+  vertical-align: text-bottom;
+  border: 1px black solid;
+}
+
+
+/*MARCO*/
+
+.bicon{
+  color: #CACEDE;
+  margin-right: 5%;
+  width: 3.063rem;
+  height: 3.063rem;
+  border-radius: 100%;
+}
+
+
+.tit1{
+  margin-top: 0px;
+  text-align: center;
+
+  margin-left: 0%;
+  font-weight: bold; /* Texto en negrita */
+  color: #003785;
+}
+
+mat-toolbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-form-field{
+  width: 57.5rem;
+  height: 3.75rem;
+}
