@@ -1,4 +1,5 @@
 export const environment = {
   production: false,
-  serverBasePath: 'http://localhost:3000'
+  serverBasePath: 'https://my-json-server.typicode.com/ElvDev05/db-server'
+
 };
