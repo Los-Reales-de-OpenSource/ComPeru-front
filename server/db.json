@@ -1,13 +1,25 @@
 {
   "products": [
     {
-
+      "id": 1,
+      "name": "Mesa Decorativa",
+      "photo": "/assets/images/",
+      "price": 25.50,
+      "offer": 20.50
     },
     {
-
+      "id": 2,
+      "name": "Set de Platos",
+      "photo": "/assets/images/",
+      "price": 50.00,
+      "offer": 40.00
     },
     {
-
+      "id": 3,
+      "name": "Zapatillas Nike",
+      "photo": "/assets/images/",
+      "price": 18.00,
+      "offer": 15.50
     }
   ]
 }
