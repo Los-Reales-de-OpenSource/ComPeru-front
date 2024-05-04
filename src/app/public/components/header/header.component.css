@@ -1,7 +1,7 @@
 .bicon{
   color: #CACEDE;
   width: 4.063rem;
-  height: 4.063rem;
+  height: fit-content;
   border-radius: 100%;
 }
 
@@ -14,7 +14,7 @@
 mat-toolbar{
   width: 100%;
   display: flex;
-  gap: 133px;
+  gap: 7.5%;
   align-items: center;
   justify-content: center;
 }
