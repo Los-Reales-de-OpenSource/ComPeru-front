@@ -15,7 +15,7 @@ import { NgFor } from "@angular/common";
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit{
-  @Input() products: Array<Product> = [];
+  products: Array<Product> = [];
 
   constructor(private productsService: ProductService) {
   }
