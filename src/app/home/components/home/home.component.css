@@ -1,37 +1,37 @@
 .sub_toolbar{
-  margin-top: 1.531rem;
+  margin-top: 0.5%;
+  margin-left: 37.5%;
   display: flex;
-  gap: 1.375rem;
+  gap: 7.5%;
   height: 2.063rem;
   font-family: "Open Sans";
   font-size: 1.5rem;
   color: #003785;
 }
 .banner_zone{
-  margin-top: 5.125rem;
+  margin-top: 5.25%;
   margin-left: 10.5rem;
-  /*background-image: url("../src/assets/images/Banner.png");*/
   width: 88.813rem;
   height: 35.688rem;
   border-radius: 1.25rem;
 }
 .tit2{
-  margin-top: 9.563rem;
-  margin-left: 5.063rem;
+  margin-top: 6.25%;
+  margin-left: 4.025%;
   font-family: "Open Sans";
   font-size: 40px;
   color: #003785;
 }
 .offers_zone{
-  margin-top: 2.125rem;
-  margin-left: 6.188rem;
+  margin-top: 1.55%;
+  margin-left: 4.5%;
   display: flex;
-  gap: 4.688rem;
+  gap: 3.25%;
 }
 mat-card{
   align-items: center;
   width: 29.375rem;
-  height: 33.938rem;
+  height: fit-content;
   border-width: thin;
   border-radius: 1.875rem;
 }
@@ -58,5 +58,5 @@ mat-card-footer{
   font-family: "Roboto Light";
   font-size: 2rem;
   color: #4466DF;
-
+  margin-bottom: 2.75%;
 }

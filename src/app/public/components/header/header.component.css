@@ -1,7 +1,7 @@
 .bicon{
   color: #CACEDE;
   width: 4.063rem;
-  height: 4.063rem;
+  height: fit-content;
   border-radius: 100%;
 }
 
@@ -14,6 +14,7 @@
 mat-toolbar{
   width: 100%;
   display: flex;
+  gap: 7.5%;
   align-items: center;
   justify-content: center;
 }
@@ -21,4 +22,10 @@ mat-toolbar{
 mat-form-field{
   width: 57.5rem;
   height: 3.75rem;
+  border-radius: 1.25rem;
+}
+
+.shortcuts{
+  display: flex;
+  gap: 105px;
 }
