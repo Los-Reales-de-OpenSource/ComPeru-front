@@ -9,13 +9,13 @@
     </div>
   </div>
   <div class="banner_zone">
-    <img src="ComPeru/src/assets/images/Banner.png">
+    <img src="src/assets/images/Banner.png" alt="Banner de producto">
   </div>
   <h1 class="tit2">Ofertas del día</h1>
   <div class="offers_zone">
     <mat-card *ngFor="let product of products">
       <mat-card-header>
-        <img mat-card-image src="">
+        <img mat-card-image src="{{product.photo}}">
       </mat-card-header>
       <mat-card-content>
         <h3>{{ product.name }}</h3>
